@@ -76,8 +76,10 @@
       "import React from 'react';",
       "import { View } from 'react-native';",
       "",
-      "export default function ${1:componentName}() {",
+      "export default const ${1:componentName} = () => {",
       "  return (",
+      "    <View>",
+      "      <Text></Text>"
       "    <View />",
       "  );",
       "}",
